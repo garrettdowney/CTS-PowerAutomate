@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div>
+    <h1>@{outputs('Get_response_details')?['body/r1b32171759d44458992131611db43410']} Assessment</h1>
+    </div> 
+    <hr size="2" width="100%" color= "#34629E"> 
+    <div>
+        <table style="width: 100%;"  cellpadding = "6">
+            <tr>
+                <td><b>Sales Executive:</b></td>
+                <td> @{outputs('Get_response_details')?['body/rb132019cfd1849cc808198d3fe907195']}</td>
+            </tr>
+            <tr>
+                <td><b>Sales Engineer/CTO:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r5794ece6ab1e4320a48665a5aa6ccce0']}</td>
+            </tr>
+            <tr>
+                <td><b>Point of Contact:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r70406e8eabeb4787a98a48e7bf60be7e']}</td>
+            </tr>
+            <tr>
+                <td><b>Reason of inquiry:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r78b8913cda74430f98f4c1ba85edaa7c']}</td>
+            </tr>
+            <tr>
+                <td><b>Location(s) with Address(es)</b></td>
+                <td>@{outputs('Get_response_details')?['body/read021718edb44a483b13bf3898d16d7']}</td>
+            </tr>
+        </table>
+<hr size="2" width="100%" color= "#34629E"> 
+    <div>
+        <h2>Abililty to Execute</h2>
+<hr size="2" width="100%" color= "#34629E"> 
+        </div>
+        <table style="width: 100%;"  cellpadding = "6">
+            <tr>
+                <td><b>Do Users have access to systems and files remotely and/or locally?</b></td>
+                <td></p> @{outputs('Get_response_details')?['body/r28b1f51a8a374f3b9e9e6492ee6fbc1f']}</td>
+            </tr>
+            <tr>
+                <td><b>Do you feel you can effectively preform your job duties?</b></td>
+                <td>@{outputs('Get_response_details')?['body/r0b6fe218ef4c4413a42ee5e8fa18607d']}</td>
+            </tr>
+            <tr>
+                <td><b>Do you feel your company can effectively keep up with your forecasted growth?</b></td>
+                <td>@{outputs('Get_response_details')?['body/rf0e68371642e4e55a252052a310fc06c']}</td>
+            </tr>
+            <tr>
+                <td><b>Compliance Regulations:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r87c50da55fc24a8aa0bfce374387e4f5']}</td>
+            </tr>
+            <tr>
+                <td><b>Are you currently meeting all regulatory requirements based on your interpretation?</b></td>
+                <td>@{outputs('Get_response_details')?['body/r07ca29c5fc3643f89f33144c9c4af795']}</td>
+            </tr>
+        </table>
+<hr size="2" width="100%" color= "#34629E"> 
+    <div>
+        <h2>State of the Core Environment</h2>
+<hr size="2" width="100%" color= "#34629E"> 
+        </div>
+        <table style="width: 100%;"  cellpadding = "6">
+            <tr>
+                <td><b>Current IT Support:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r4e220421e0704c65aeadb74f5e1d6d00']}</td>
+            </tr>
+            <tr>
+                <td><b>Current Hardware Supported</b></td>
+                <td>@{outputs('Get_response_details')?['body/r568bd817e6034ded9c583d62f23aa9b7']}</td>
+            </tr>
+            <tr>
+                <td><b>Current OS version supported</b></td>
+                <td>@{outputs('Get_response_details')?['body/r6ee3a366d2f44432882eb542818c501d']}</td>
+            </tr>
+            <tr>
+                <td><b>Infrastructure support remote workforce?</b></td>
+                <td>@{outputs('Get_response_details')?['body/re1a7aa9ef18e4276a9049f136446af29']}</td>
+            </tr>
+            <tr>
+                <td><b>Domain or AD in place?</b></td>
+                <td>@{outputs('Get_response_details')?['body/rbce2baa9c3ad49dda94bb7f21b736fd3']}</td>
+            </tr>
+            <tr>
+                <td><b>Backup of critical systems</b></td>
+                <td>@{outputs('Get_response_details')?['body/r732ff7995f6943e4a48eefa57873b244']} - @{outputs('Get_response_details')?['body/r0f66e920b00a448bb428dd6ea5cee017']}</td>
+            </tr>
+            <tr>
+                <td><b>Security Awareness Training</b></td>
+                <td>@{outputs('Get_response_details')?['body/rc8fb726c711b4552a836cfee9d82536f']}</td>
+            </tr>
+            <tr>
+                <td><b>SOC/SIEM</b></td>
+                <td>@{outputs('Get_response_details')?['body/r5a636dbb85c24b58b357b3bc254987be']}</td>
+            </tr>
+            <tr>
+                <td><b>Cyber Security Insurance</b></td>
+                <td>@{outputs('Get_response_details')?['body/r1c762bf497db41f3bb8db937b0f84087']}</td>
+            </tr>
+            <tr>
+                <td><b>IP Ranges:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r5fe1074e43d043478eaed7209eccf3d8']}</td>
+            </tr>
+            <tr>
+                <td><b>Number of Domain Users:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r3cf1a0fbdac24864be4a531d6e384a39']}</td>
+            </tr>
+            <tr>
+                <td><b>Number of Users:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r2613855abe164972aa030b1192016b8c']}</td>
+            </tr>
+            <tr>
+                <td><b>Number of Domain Computers:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r11b1d444e6bc4a06804cb837d8078ff8']}</td>
+            </tr>
+            <tr>
+                <td><b>Number of Physical/Virtual Servers:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r7feb6cb95f3c4d959b7f959218498322']}</td>
+            </tr>
+            <tr>
+                <td><b>Total amount of data:</b></td>
+                <td>@{outputs('Get_response_details')?['body/rf859b67090cb4f7aaeb152b07756c26d']}</td>
+            </tr>
+            <tr>
+                <td><b>Current type of backup solution:</b></td>
+                <td>@{outputs('Get_response_details')?['body/rcea71577dab842aab9802553f5a5f2cd']}</td>
+            </tr>
+            <tr>
+                <td><b>Backup recommendation:</b></td>
+                <td>@{outputs('Get_response_details')?['body/re5d75ab4d6874d7c89fe1f898247de7e']}</td>
+            </tr>
+            <tr>
+                <td><b>Disaster Recovery:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r75ec4d5d0b514827979fb6049110f0c7']}</td>
+            </tr>
+            <tr>
+                <td><b>Patching Schedule:</b></td>
+                <td>@{outputs('Get_response_details')?['body/radd1574a1a9e40c185940937a2d13afd']}</td>
+            </tr>
+            <tr>
+                <td><b>ISP and Bandwidth:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r29f4d387859242138746ed1f7aea6b4d']} - @{outputs('Get_response_details')?['body/r74575be838fd4b6db568a43f9984f7a9']}</td>
+            </tr>
+            <tr>
+                <td><b>Firewall:</b></td>
+                <td>@{outputs('Get_response_details')?['body/rebc1fd18f87d4244a2037ce24b91ad09']}</td>
+            </tr>
+            <tr>
+                <td><b>VPN/VPN with MFA</b></td>
+                <td>@{outputs('Get_response_details')?['body/r9f03a518b5864380bdd79d199f11a2c9']}</td>
+            </tr>
+            <tr>
+                <td><b>Number of switches:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r722ebc8398614110a645fc4de37f4484']}</td>
+            </tr>
+            <tr>
+                <td><b>Number of WAPS:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r722ebc8398614110a645fc4de37f4484']}</td>
+            </tr>
+            <tr>
+                <td><b>Phone System:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r01eb9f21d53b45329f3e8a7331343722']}</td>
+            </tr>
+            <tr>
+                <td><b>Current RMM:</b></td>
+                <td>@{outputs('Get_response_details')?['body/rb552094d0a4547c78a03ddf85e0aa292']}</td>
+            </tr>
+            <tr>
+                <td><b>Current AV:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r86c81b7257b8497ead806705c508fe52']}</td>
+            </tr>
+            <tr>
+                <td><b>Printers and Vendors:</b></td>
+                <td>@{outputs('Get_response_details')?['body/ra7747a0a70974bf19285f87a1b44776e']} - @{outputs('Get_response_details')?['body/r5701db8aa76542ad88664f9842e1b533']}</td>
+            </tr>
+            <tr>
+                <td><b>Primary Software/Applications:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r4eae9b4d78834645827adde0f74c5cd3']}</td>
+            </tr>
+            <tr>
+                <td><b>MFA with Email:</b></td>
+                <td>@{outputs('Get_response_details')?['body/r0ee98143ec7c4584b398cc7ff59e7bca']}</td>
+            </tr>
+        </table>
+<hr size="2" width="100%" color= "#34629E"> 
+    <div>
+        <h2>Major Points</h2>
+<hr size="2" width="100%" color= "#34629E"> 
+        </div>
+        <p>
+            <b>Major Projects:</b>
+        </p> @{outputs('Get_response_details')?['body/rce36b3cea1d04793b2038faa49c1b67d']}
+        <p>
+            <b>Email Assessment/True-Up:</b>
+        </p> @{outputs('Get_response_details')?['body/r4b4a565f113343a28878e29f4bf73f50']}
+        <p>
+            <b>Executive Summary:</b>
+        </p>@{outputs('Get_response_details')?['body/r8c3e0a2b85d44799aeed6c74928bc291']}
+        <p>
+            <b>Notes:</b>
+        </p> @{outputs('Get_response_details')?['body/r176074328b7d470996682cdf25421f44']}
+    </div>
+</body>
+</html> 
