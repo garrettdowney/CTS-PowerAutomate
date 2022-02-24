@@ -61,7 +61,11 @@
                 <th style="font-size: large;">Pre-Requisites</th>
             </tr>
             <tr>
-                <td>@{outputs('Get_response_details')?['body/rc0a2996ed02543e894add7ec29678cef']}</td>
+                <td>
+                    <ul>Current software and hardware patched and backed up</ul>
+                    <ul>Hypervisor (VMWare)</ul>
+                    <ul>Determine what applications are being used and where they are located</ul>
+                </td>
             </tr>
         </table>
         <table style="text-align: left;"  cellpadding = "6">
@@ -69,7 +73,10 @@
                 <th style="font-size: large;">Licensing and Hardware</th>
             </tr>
             <tr>
-                <td>@{outputs('Get_response_details')?['body/r01ef7d305bd24cec9ff3568e82146149']}</td>
+                <td>
+                    <ul>16 core Server 2019 License</ul>
+                    <ul>No hardware should be required</ul>
+                </td>
             </tr>
         </table>
         <table style="text-align: left;"  cellpadding = "6">
@@ -77,7 +84,12 @@
                 <th style="font-size: large;">Project Implementation</th>
             </tr>
             <tr>
-                <td>@{outputs('Get_response_details')?['body/r10e2e5eeb0e1428f8301fdf4c77b33fd']}</td>
+                <td>
+                    <ul>Discovery and Design</ul>
+                    <ul>Kick off call</ul>
+                    <ul>Misc/Use Support</ul>
+                    <ul>Document all network changes in IT Glue</ul>
+                </td>
             </tr>
         </table>
         <table style="text-align: left;"  cellpadding = "6">
@@ -85,7 +97,15 @@
                 <th style="font-size: large;">Out of Scope</th>
             </tr>
             <tr>
-                <td>@{outputs('Get_response_details')?['body/rd6070b7788ac4153beb66f68d77f0c03']}</td>
+                <td>
+                    <ul>Audit Licensing</ul>
+                    <ul>Software troubleshooting, outside of vendor support</ul>
+                    <ul>WKS: New and or troubleshooting/upgrades</ul>
+                    <ul>Password management/MFA</ul>
+                    <ul>Firewall</ul>
+                    <ul>DR</ul>
+                    <ul>PCI compliance/scan</ul>
+                </td>
             </tr>
         </table>
         <table style="text-align: left;"  cellpadding = "6">
@@ -96,25 +116,36 @@
                 <td><b>Complete Technology</b></td>
             </tr>
             <tr>
-                <td>@{outputs('Get_response_details')?['body/r06cf647b6e8f4ac3aef7389125e540f2']}</td>
+                <td>
+                    <ul>Review this scope at the start of the project and verify expectations, goals and existing environment information are accurate.</ul>
+                    <ul>Perform the above listed procedures according to industry standards and best practices.</ul>
+                    <ul>Communicate any necessary adjustments to client as they arise in a timely manner.</ul>
+                </td>
             </tr>
             <tr>
                 <td><b>Client Will</b></td>
             </tr>
             <tr>
-                <td>@{outputs('Get_response_details')?['body/r5cefbfc41ef745b48682d903f80422a1']}</td>
+                <td>
+                    <ul>Provide necessary logins, passwords, documentation, and access to all accounts and devices relevant to this project to Complete Technology.</ul>
+                </td>
             </tr>
             <tr>
                 <td><b>Options</b></td>
             </tr>
             <tr>
-                <td>@{outputs('Get_response_details')?['body/rd471c765d4be4ab882f057f48b777d4e']}</td>
+                <td>
+                    <ul>@{outputs('Get_response_details')?['body/rd471c765d4be4ab882f057f48b777d4e']}</ul>
+                </td>
             </tr>
             <tr>
                 <td><b>Unforeseen Items</b></td>
             </tr>
             <tr>
-                <td>@{outputs('Get_response_details')?['body/r9bcbd64f797049b295ad302dbfc06776']}</td>
+                <td>
+                    <ul>During this project, additional unforeseen licenses, hardware, etc. may be necessary from 3rd-party vendors to successfully complete the project. In the event this occurs, Complete Technology will discuss these the client as soon as they arise before proceeding to add additional time or costs to the project. Complete Technology will consult with the 3rd-party vendor on behalf of the client to ensure efficiency throughout the project.</ul>
+                    <ul>Time for unforeseen items has not been accounted for in our proposal. Any additional time needed to remedy unforeseen issues may affect the original scope and will require approval from the client before proceeding with the project.</ul>
+                </td>
             </tr>
         </table>
         <hr size="2" width="100%" color= "#34629E">
@@ -128,19 +159,31 @@
                 <td>0</td>
             </tr>
             <tr>
-                <td>Task</td>
+                <td>Pre-investigation</td>
                 <td>0</td>
             </tr>
             <tr>
-                <td>Task</td>
+                <td>Setup of VM and OS</td>
                 <td>0</td>
             </tr>
             <tr>
-                <td>Task</td>
+                <td>Configuration and Install of SQL</td>
                 <td>0</td>
             </tr>
             <tr>
-                <td>Task</td>
+                <td>RDP Configuration</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Setup of databases</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Validation and testing</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Added to backups</td>
                 <td>0</td>
             </tr>
             <tr>
@@ -150,4 +193,4 @@
         </table>
     </div>
 </body>
-</html>
+</html> 
